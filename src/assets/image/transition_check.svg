@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94" height="88" viewBox="0 0 94 88">
+    <defs>
+        <path id="b" d="M51.434 5.681L45.644.564c-.685-.606-1.797-.606-2.482 0L19.044 21.88 8.785 12.814c-.685-.606-1.796-.606-2.481 0L.514 17.93c-.685.605-.685 1.587 0 2.193l17.289 15.279c.342.303.792.454 1.24.454.45 0 .899-.151 1.241-.454l31.15-27.53c.329-.29.514-.684.514-1.096 0-.41-.185-.805-.514-1.096z"/>
+        <filter id="a" width="238.6%" height="301.4%" x="-69.3%" y="-92.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="11.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.48989899 0 0 0 0 1 0 0 0 0 0.645147123 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(5 2)">
+        <g transform="translate(16 24)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#30B667" xlink:href="#b"/>
+        </g>
+        <circle cx="42" cy="42" r="42" stroke="#D4F8E3" stroke-width="3"/>
+    </g>
+</svg>
